@@ -16,20 +16,20 @@ section{
     text-align: left;
     border-radius: 6px;
 }
-#button{
+button{
     border-radius: 4px;
     background: lightgray;
 }
-#clear{
-    border-radius: 4px;
-    background: lightgray;
+select{
+    border-radius: 8px;
+    height: 25px;
 }
-#calcular{
-    border-radius: 4px;
-    background: lightgray;
+.op{
+    width: 80px;
+    height: 15px;
 }
-
-#Tclear{
-    border-radius: 4px;
-    background: lightgray;
+#expoente{
+    width: 30px;
+    height: 10px;
+    position: absolute;
 }

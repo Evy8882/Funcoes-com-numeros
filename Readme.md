@@ -1,1 +1,1 @@
-programa simples, com contagem de numero e tabuada
+programa simples, com contagem de numero, tabuada, operações simples e outras funções com números.

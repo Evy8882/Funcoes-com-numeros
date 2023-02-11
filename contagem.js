@@ -39,6 +39,10 @@ function mleave(){
 function limpar(){ 
     let res = document.getElementById('res');
     res.innerHTML = ''
+    document.getElementById('init').value = ''
+    document.getElementById('end').value = ''
+    document.getElementById('step').value = ''
+
 }
 
 function center(){

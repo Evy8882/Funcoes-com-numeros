@@ -23,6 +23,7 @@ function Tlimpar(){
         let n = document.getElementById('valor'+i)
         n.innerHTML = ''
     }
+    document.getElementById('numero').value = ''
 }
 
 function LMenter(){

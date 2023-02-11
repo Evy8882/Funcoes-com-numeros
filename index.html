@@ -7,7 +7,10 @@
     <title>Números</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <!-- primeira parte (contagem) -->
+
     <h1>Contando números</h1>
     <section>
         <h3>Configurações da contagem:</h3>
@@ -35,11 +38,7 @@
     </section>
     <script src="contagem.js"></script>
     <br>
-</body>
-
-
-
-<body>
+    <!-- segunda parte (tabuada) -->
     <h1>Tabuada</h1>
     <section>
         <h3>Configurações da tabuada:</h3>
@@ -77,5 +76,43 @@
         </p>
     </section>
     <script src="tabuada.js"></script>
+
+    <!-- terceira parte (operações basicas)-->
+    <h1>Operações básicas</h1>
+    <section>
+        <h3>Configurações da conta:</h3>
+        <p>
+        <input type="number" name="" id="v1" class="op" placeholder="valor 1">
+
+        <select name="" id="operacao">
+            <option value="1">+</option>
+            <option value="2">-</option>
+            <option value="3">x</option>
+            <option value="4">/</option>
+        </select>
+
+        <input type="number" name="" id="v2" class="op" placeholder="valor2">
+        <button onclick="opCalculo()" onmouseenter ="opEnter()" onmouseleave="opLeave()" id="opCalculo">calcular</button>
+        <button onclick="opLimpar()" onmouseenter ="opLimparEnter()" onmouseleave="opLimparLeave()" id="opLimpar">limpar</button>
+        <div id="opRes"></div>
+        <div id="opRes"></div>
+        </p>
+    </section>
+    <script src="operaçoes.js"></script>
+
+    <!-- quarta parte (potenciação) -->
+    <h1>Potenciação</h1>
+    <section>
+        <h3>Configurações da conta:</h3>
+        <input type="number" name="" id="po" class="op" placeholder="base">
+        <input type="number" name="" id="expoente" placeholder="ex">=
+        <br><br>
+        <button onclick="poCalculo()" onmouseenter ="poEnter()" onmouseleave="poLeave()" id="poCalculo">calcular</button>
+        <button onclick="poLimpar()" onmouseenter ="poLimparEnter()" onmouseleave="poLimparLeave()" id="poLimpar">limpar</button>
+        <br><br>
+        <div id="poRes"></div>
+    </section>
+    <script src="potencia.js"></script>
 </body>
+
 </html>
