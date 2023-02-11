@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Contando números</h1>
+    <section>
+        <h3>Configurações da contagem:</h3>
+        <p>
+            Inicio: 
+            <input type="number" value="" placeholder="numero de inicio" min = 0 id="init">
+        </p>
+        <p>
+            Fim: 
+            <input type="number" value="" placeholder="numero de fim" min = 0 id="end">
+        </p>
+        <p>
+            Passos: 
+            <input type="number" value="" placeholder="tamanho dos passos" min="1" id="step">
+        </p>
+        <p>
+            <button id="button" onclick ="mclick()" onmouseenter ="menter()" onmouseleave="mleave()">contar</button>
+            <button id="clear" onclick ="limpar()" onmouseenter ="center()" onmouseleave="cleave()">limpar</button>
+        </p>
+        <p>
+            <h3>Contando:</h3>
+        </p>
+        <p id="res">
+        </p>
+    </section>
+    <script src="contagem.js"></script>
+    <br>
+</body>
+
+
+
+<body>
+    <h1>Tabuada</h1>
+    <section>
+        <h3>Configurações da tabuada:</h3>
+        <p>
+            Tabuada do número: 
+            <input type="number" value="" placeholder="digite aqui o número" id="numero">
+            <button id="calcular" onclick="calcular()" onmouseenter ="TMenter()" onmouseleave="TMleave()">calcular</button>
+            <button id="Tclear" onclick="Tlimpar()" onmouseenter ="LMenter()" onmouseleave="LMleave()">limpar</button>
+        </p>
+        <p>
+            <h3>Tabuada:</h3>
+            <div id="valor1"></div>
+            <div id="valor2"></div>
+            <div id="valor3"></div>
+            <div id="valor4"></div>
+            <div id="valor5"></div>
+            <div id="valor6"></div>
+            <div id="valor7"></div>
+            <div id="valor8"></div>
+            <div id="valor9"></div>
+            <div id="valor10"></div>
+            <div id="valor11"></div>
+            <div id="valor12"></div>
+            <div id="valor13"></div>
+            <div id="valor14"></div>
+            <div id="valor15"></div>
+            <div id="valor16"></div>
+            <div id="valor17"></div>
+            <div id="valor18"></div>
+            <div id="valor19"></div>
+            <div id="valor20"></div>
+            
+        </p>
+        <p id="res">
+        </p>
+    </section>
+    <script src="tabuada.js"></script>
+</body>
+</html>

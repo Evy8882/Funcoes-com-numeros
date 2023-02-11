@@ -1,0 +1,35 @@
+body{
+    background: rgb(62, 130, 231);
+    color: white;
+    text-align: center;
+    font: normal 10pt arial;
+}
+input{
+    border-radius: 4px;
+}
+section{
+    background: white;
+    color: black;
+    width: 480px;
+    padding: 8px;
+    margin: auto;
+    text-align: left;
+    border-radius: 6px;
+}
+#button{
+    border-radius: 4px;
+    background: lightgray;
+}
+#clear{
+    border-radius: 4px;
+    background: lightgray;
+}
+#calcular{
+    border-radius: 4px;
+    background: lightgray;
+}
+
+#Tclear{
+    border-radius: 4px;
+    background: lightgray;
+}
